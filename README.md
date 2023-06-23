@@ -2,7 +2,7 @@
 
 ECL-SCC is a parallel algorithm for detecting strongly connected components in directed graphs. The CUDA implementation thereof is quite fast, especially on mesh graphs. It operates on graphs stored in binary CSR format. Converters to this format can be found at https://cs.txstate.edu/~burtscher/research/ECLgraph/.
 
-The CUDA code consists of the files ECL-SCC_10.cu and ECLgraph.h. The paper referenced below explains the ECL-SCC algorithm. Note that ECL-SCC is protected by the BSD 3-clause license.
+The CUDA source code consists of the files ECL-SCC_10.cu and ECLgraph.h. The paper referenced below explains the ECL-SCC algorithm. Note that ECL-SCC is protected by the BSD 3-clause license.
 
 The code can be compiled as follows:
 
@@ -12,10 +12,10 @@ To compute the SCC of the file mesh.egr, enter:
 
    ./ecl-scc mesh.egr
 
-The repository includes three sample inputs: star.mesh.egr (6 MB), toroid-wedge.mesh.egr (4 MB), and twist-hex.mesh.egr (172 MB).
+The repository includes three sample inputs: star.mesh.egr (6 MB), toroid-wedge.mesh.egr (4 MB), and cold-flow.mesh.egr (57 MB).
 
 
-Publication:
+## Publication:
 
 G. Alabandi, W. Sands, G. Biros, and M. Burtscher. "A GPU Algorithm for Detecting Strongly Connected Components." Proceedings of the 2023 ACM/IEEE International Conference for High Performance Computing, Networking, Storage, and Analysis. November 2021.
 
