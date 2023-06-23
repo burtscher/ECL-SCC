@@ -15,7 +15,7 @@ To compute the SCC of the file mesh.egr, enter:
 The repository includes three sample inputs: star.mesh.egr (6 MB), toroid-wedge.mesh.egr (4 MB), and cold-flow.mesh.egr (57 MB).
 
 
-## Publication:
+### Publication
 
 G. Alabandi, W. Sands, G. Biros, and M. Burtscher. "A GPU Algorithm for Detecting Strongly Connected Components." Proceedings of the 2023 ACM/IEEE International Conference for High Performance Computing, Networking, Storage, and Analysis. November 2021.
 
