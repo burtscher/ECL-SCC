@@ -17,6 +17,6 @@ The repository includes three sample inputs: star.mesh.egr (6 MB), toroid-wedge.
 
 ### Publication
 
-G. Alabandi, W. Sands, G. Biros, and M. Burtscher. "A GPU Algorithm for Detecting Strongly Connected Components." Proceedings of the 2023 ACM/IEEE International Conference for High Performance Computing, Networking, Storage, and Analysis. November 2021.
+G. Alabandi, W. Sands, G. Biros, and M. Burtscher. "A GPU Algorithm for Detecting Strongly Connected Components." Proceedings of the 2023 ACM/IEEE International Conference for High Performance Computing, Networking, Storage, and Analysis. November 2023.
 
 *This work has been supported in part by the Department of Energy, National Nuclear Security Administration under Award Number DE-NA0003969 as well as by equipment donations from NVIDIA Corporation.*
