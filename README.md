@@ -1,4 +1,4 @@
-# ECL-SCC
+# ECL-SCC v1.0
 
 ECL-SCC is a parallel algorithm for detecting strongly connected components in directed graphs. The CUDA implementation thereof is quite fast, especially on mesh graphs. It operates on graphs stored in binary CSR format. Converters to this format can be found at https://cs.txstate.edu/~burtscher/research/ECLgraph/.
 
