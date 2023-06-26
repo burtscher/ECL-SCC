@@ -38,6 +38,7 @@ Ghadeer Alabandi, William Sands, George Biros, and Martin Burtscher. "A GPU Algo
 #include <cstdlib>
 #include <cstdio>
 #include <algorithm>
+#include <functional>
 #include <sys/time.h>
 #include <cuda.h>
 #include "ECLgraph.h"
@@ -168,6 +169,8 @@ struct GPUTimer
 
 int main(int argc, char* argv [])
 {
+  printf("ECL-SCC v1.0\n\n");  fflush(stdout);
+
   // process command line
   if (argc != 2) {printf("USAGE: %s input_file_name\n\n", argv[0]);  exit(-1);}
 
@@ -208,7 +211,7 @@ int main(int argc, char* argv [])
 /*************************************************************************/
 
   // start time
-  printf("running ECL-SCC algorithm\n");  fflush(stdout);
+  printf("running algorithm\n");  fflush(stdout);
   GPUTimer timer;
   timer.start();
 
@@ -240,7 +243,7 @@ int main(int argc, char* argv [])
 
   // end time
   const double runtime = timer.stop();
-  printf("ECL-SCC compute time: %.6f s\n", runtime);
+  printf("compute time: %.6f s\n\n", runtime);
   CheckCuda(__LINE__);
 
 /*************************************************************************/
@@ -252,6 +255,7 @@ int main(int argc, char* argv [])
   CheckCuda(__LINE__);
 
   // output SCC sizes and frequency
+  printf("result:\n");
   int* count = new int [n];
   for (int v = 0; v < n; v++) count[v] = 0;
   for (int v = 0; v < n; v++) count[iomax[v].x]++;
@@ -271,7 +275,7 @@ int main(int argc, char* argv [])
     printf("%d SCCs of size %d\n", cnt, count[n - 1]);
     SCC_cnt += cnt;
   }
-  printf("# of SCCs: %d\n", SCC_cnt);
+  printf("number of SCCs: %d\n", SCC_cnt);
 
   // clean up
   cudaFree(d_g.nindex);  cudaFree(d_g.nlist);  cudaFree(d_iomax);  cudaFree(d_wl1);  cudaFree(d_wl2);  cudaFree(d_wl2size);  cudaFree(d_goagain);
