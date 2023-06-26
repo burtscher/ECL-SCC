@@ -13,8 +13,11 @@ To compute the SCC of the file mesh.egr, enter:
     ./ecl-scc mesh.egr
 
 The repository includes three sample inputs:
+
 toroid-wedge.mesh.egr (196608 vertices, 487798 edges, 4 MB)
+
 star.mesh.egr (327680 vertices, 654080 edges, 6 MB)
+
 cold-flow.mesh.egr (2112512 vertices, 6295941 edges, 57 MB)
 
 
