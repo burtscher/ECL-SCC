@@ -28,7 +28,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-URL: The latest version of this code is available at https://cs.txstate.edu/~burtscher/research/ECL-SCC/.
+URL: The latest version of this code is available at https://cs.txstate.edu/~burtscher/research/ECL-SCC/ and at https://github.com/burtscher/ECL-SCC.
 
 Publication: This work is described in detail in the following paper.
 Ghadeer Alabandi, William Sands, George Biros, and Martin Burtscher. "A GPU Algorithm for Detecting Strongly Connected Components." Proceedings of the 2023 ACM/IEEE International Conference for High Performance Computing, Networking, Storage, and Analysis. November 2023.
