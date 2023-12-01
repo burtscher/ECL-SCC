@@ -20,7 +20,7 @@ The repository includes three sample inputs:
 
 ### Publication
 
-Ghadeer Alabandi, William Sands, George Biros, and Martin Burtscher. "A GPU Algorithm for Detecting Strongly Connected Components." Proceedings of the 2023 ACM/IEEE International Conference for High Performance Computing, Networking, Storage, and Analysis. November 2023. DOI: https://dl.acm.org/doi/10.1145/3581784.3607071
+Ghadeer Alabandi, William Sands, George Biros, and Martin Burtscher. "A GPU Algorithm for Detecting Strongly Connected Components." Proceedings of the 2023 ACM/IEEE International Conference for High Performance Computing, Networking, Storage, and Analysis. Article 17, pp. 1-13. November 2023. DOI: https://dl.acm.org/doi/10.1145/3581784.3607071
 
 Slides: https://cs.txstate.edu/~burtscher/research/ECL-SCC/ECL-SCC.pptx
 
